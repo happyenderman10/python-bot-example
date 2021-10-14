@@ -29,7 +29,7 @@ async def help(ctx):
     embed.add_field(name="Gen things", value="``gen``, ``num``")
     embed.add_field(name="Fun", value="``embed``,``dog``,``cat``")
     embed.add_field(name="Request",value="``support``")
-    embed.add_field(name="Utility",value="``deletewebhook``,``avatar``,``botinfo``,``hack``,``ping``,``alert``,``deletechannels``,``spamchannels``")
+    embed.add_field(name="Utility",value="``deletewebhook``,``avatar``,``botinfo``,``hack``,``ping``,``alert``")
     await ctx.send(embed=embed)
 @client.command()
 async def minecraft(ctx, *,text):
