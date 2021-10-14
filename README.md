@@ -1,7 +1,7 @@
-# A simple python bot : 
-- ⚡To get started : 
+# 💠A simple python bot : 
+- ⚡ To get started : 
 
-Follow this steps :
+  Follow this steps :
 
 1 - Go to [Replit](https://replit.com)
 
