@@ -8,12 +8,11 @@ import requests
 from requests import delete
 from random import choice
 
-with open('config.json') as f:
-    config = json.load(f)
 
-token = config.get('token')
-prefix = config.get('prefix')
-author = config.get('author')
+
+token = "your-bot-token"
+prefix = "your-prefix"
+author = "your-name"
 
 client = commands.Bot(command_prefix=prefix)
 
