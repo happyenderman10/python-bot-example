@@ -1,11 +1,11 @@
-Config.js Example 
+**Config.js Example** : 
 ```json
 {
     "token": "bot-token",
     "prefix": "prefix"
 }
 ```
-Bot example 
+**Bot example**:
 ```py
 import discord
 import asyncio
@@ -21,4 +21,9 @@ async def test(ctx):
     await ctx.send("Hi!")
 
 client.run("token")
+```
+
+embed Example :
+```py
+embed = discord.Embed(title="Hello!",description="Here whatever!!")
 ```
